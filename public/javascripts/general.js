@@ -1,6 +1,7 @@
 const campus = document.querySelector("#moments");
 const welcome = document.querySelector(".welcome-user");
 
+//It's hard to read the structure of the HTML here. You may use the innerHTML instead.
 function displayMoments(moments) {
   const mycard = document.createElement("div");
   mycard.className = "mycard col";
